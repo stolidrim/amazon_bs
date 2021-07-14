@@ -1,0 +1,80 @@
+    .logo-amazon {
+        height: 60px;
+        width: auto;
+    }
+    
+    .custom-header {
+        background-color: #131921;
+    }
+    
+    .custom-menu {
+        font-size: 30px;
+        color: yellow;
+        padding: 5px 15px !important;
+        display: inline-block;
+        margin: 0px;
+    }
+    
+    .custom-nav {
+        background-color: #232F3E !important;
+    }
+    
+    ul {
+        padding: 0;
+    }
+    
+    .custom-img {
+        height: 600px;
+    }
+    
+    .pp {
+        /* margin-top: 48px; */
+    }
+    
+    .container {
+        width: 95% !important;
+    }
+    
+    .img-zoom {
+        height: 200px;
+        /* width: 200px; */
+        overflow: hidden;
+        background-image: linear-gradient(rgba(246, 7, 7, 0.829), rgba(0, 128, 0, 0.157), rgba(255, 255, 255, 0.192)) !important;
+        /* background-color: red; */
+    }
+    
+    .img-zoom img {
+        height: 200px;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .img-zoom:hover img {
+        transform: scale(1.15);
+        filter: sepia(1);
+        filter: opacity(0.2);
+    }
+    
+    @media screen and (max-width: 400px) {
+        .custom-img {
+            height: 150px !important;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .custom-img {
+            height: 300px !important;
+        }
+    }
+    
+    footer {
+        background-color: #232f3e;
+    }
+    
+    footer h5 {
+        color: aqua;
+        border-bottom: 2px solid rgb(94, 9, 179);
+    }
+    
+    footer a {
+        color: rgb(5, 194, 194) !important;
+    }

@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- boostrap Icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Amazon Signup Form</title>
+</head>
+
+<body>
+
+    <!-- start of navbar  -->
+    <div class="container-fluid">
+        <div class="row custom-header align-items-center">
+            <div class="col-md-3">
+                <a class="navbar-brand" href="index.html"><img src="images/logo1.png" alt="logo" class="logo-amazon"></a>
+            </div>
+            <div class="col-md-6">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+
+            </div>
+            <div class="col-md-3">
+
+                <ul class="d-flex justify-content-end">
+                    <li class="list-unstyled">
+                        <a href="signin.html" class="custom-menu"><i class="fs-2 text-white bi bi-flag-fill"></i></a>
+                    </li>
+                    <li class="list-unstyled">
+                        <a href="signup.html" class="custom-menu"><i
+                                class="fs-2 text-white bi bi-box-arrow-in-right"></i></a>
+                    </li>
+                    <li class="list-unstyled">
+                        <a href="signup.html" class="custom-menu"><i
+                                class="fs-2 text-white bi bi-person-plus-fill"></i></a>
+                    </li>
+                    <li class="list-unstyled">
+                        <a href="signup.html" class="custom-menu"><i class="fs-2 text-white bi bi-basket"></i></a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav">
+                <div class="container-fluid ">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="index.html">All</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="deals.html">Today's Deals</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Customer Service
+                                </a>
+                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-white" href="#">Gift Cards</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Registry</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item text-white" href="#">Sell</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled text-white" href="#">Amazon Response to COVID-19</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- end of navbar -->
+
+
+
+
+    <!-- start of Signup form  -->
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-md-3 mt-3 mb-3 p-4 shadow">
+
+                <form>
+                    <div class="mb-3">
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="fname" id="firstname" placeholder="First Name" class="form-control" Required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lname" id="lastname" placeholder="Last Name" class="form-control" Required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email">Email </label>
+                        <input type="email" name="email" id="email" placeholder="Email Address" class="form-control" Required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="8 digit Password" class="form-control" Required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="passwordConfirm">Password Confirm</label>
+                        <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="8 digit Password" class="form-control" Required>
+                    </div>
+                    <div class="mb-3 ">
+                        <center>
+                            <button class="btn btn-danger" style="width: 100%;">Create your Amazon
+                                Account</button>
+
+                        </center>
+                    </div>
+                    <div class="mb-2" style="font-size: 13px;">
+                        <p>By creating an account, you agree to Amazon's <span style="color: blue;"> Conditions of
+                                Use</span> and <span style="color: blue;">Privacy
+                                Notice</span>.
+                        </p>
+                    </div>
+                    <div class="mt-4 mb-4" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 0),rgba(120, 120, 255, .5), rgba(255, 255, 255, 0)); height: 2px; width: 100%;">
+
+                    </div>
+
+                    <div class="mb-2" style="font-size: 13px;">
+                        <p>
+                            Already have an account? <span style="color: blue;">Sign-In</span>.
+                            <br> Buying for work? <span style="color: blue;">Create a free
+                                business account</span>.
+                        </p>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- end of Signup form  -->
+
+
+
+    <!-- start of footer  -->
+
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+
+            <div class="col-4 col-md px-5">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a>
+                    </li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+                </ul>
+            </div>
+            <div class="col-4 col-md px-5">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-4 col-md px-5">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- end of footer  -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
